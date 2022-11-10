@@ -1,0 +1,47 @@
+.c-heading {
+    &__home {
+        font-size: 12rem;
+    }
+
+    &__main {
+        font-size: 5.3rem;
+        line-height: 1.15;
+    }
+
+    &__form {
+        font-size: 3rem;
+
+        &--sub {
+            font-size: 2rem;
+            color: gray;
+        }
+    }
+
+    &__sub {
+        font-size: 1.8rem;
+    }
+
+    &__legal {
+        background-color: lightgray;
+    }
+
+    &.t-dark{
+        color: $lightText;
+    }
+}
+
+@include mobile-styles {
+    .c-heading {
+        &__main {
+            font-size: 4.3rem;
+    
+            &.t-dark{
+                color: $lightText;
+            }
+        }
+    
+        &__sub {
+            font-size: 1.8rem;
+        }
+    }
+}

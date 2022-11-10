@@ -1,0 +1,40 @@
+.c-demo-form {
+    max-width: $largeFormWidth;
+    font-size: 1.6rem !important;
+    background-color: $bgLight;
+    border-radius: 1.5rem;
+
+    &__error {
+        color: red;
+    }
+
+    &__label {
+        color: $darkText;
+    }
+
+    &__break {
+        border: 0.05rem rgba(0, 0, 0, 0.3) solid !important;
+        width: 100% !important;
+    }
+
+    &__input {
+        width: 100%;
+        border-radius: 7px !important;
+        font-size: inherit !important;
+        height: 4.2rem !important;
+        appearance: none;
+        background: none !important;
+        line-height: 1;
+        overflow-y: visible !important;
+    }
+
+    &__submit {
+        width: 100%;
+        border-radius: 7px !important;
+        font-size: inherit !important;
+        color: $darkText !important;
+        height: 5rem !important;
+        appearance: none;
+        background-color: $rotueBlue !important;
+    }
+}

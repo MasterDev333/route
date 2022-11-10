@@ -1,0 +1,14 @@
+.c-text {
+    font-size: 1.8rem;
+
+    &--small {
+        font-size: 1.6rem;
+    }
+
+    &__gradient {
+        background: linear-gradient(270deg, #2E76CA 0%, #4FE7C8 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+}

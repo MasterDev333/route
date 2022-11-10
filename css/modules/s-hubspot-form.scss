@@ -1,0 +1,70 @@
+/*HubSpot Form Styling*/
+.s-hubspot-form {
+	& .hbspt-form {
+		max-width: 46.8rem;
+
+		& form {
+			display: grid;
+			grid-row-gap: 1.8rem;
+
+			& label {
+				display: none;
+			}
+
+			& .hs-error-msgs{
+				margin: 0px 0px 1rem 1.5rem !important;	
+	
+				& li {
+					list-style-type: "*";
+					color: red;
+				
+					& label{
+						display: block;
+						color: red;
+					}
+				}
+			}
+			
+			& .input {
+				& input,
+				& select {
+					width: 100%;
+					height: 5.6rem;
+					
+					border-radius: 1.6rem;
+					background-color: #f7f7f7 !important;
+					border: 1px #ddd solid;
+				}
+
+				& input::placeholder{
+					color: rgb(180, 180, 180);
+				}
+			}
+			
+			& .hs-submit {
+				height: 7rem;
+				width: 13.1rem;
+				justify-self: center !important;
+				
+				display: flex;
+				flex-direction: column;
+				
+				justify-content: flex-end !important;
+
+				& input {
+					width: 100%;
+					height: 4rem;
+					
+					border-radius: 2.4rem;
+					background-color: #31C8E0 !important;
+					
+					color: #fff;
+					font-weight: 600;
+					font-size: 1.7rem;
+					
+					padding: 0px !important;
+				}
+			}
+		}
+	}
+}

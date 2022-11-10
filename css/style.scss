@@ -1,0 +1,32 @@
+/* Styles follow a BEM structure with namespacing practices */
+/* BEM Guide: https://css-tricks.com/bem-101/ */
+/* Namespacing Guide: https://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/ */
+/* Namespacing Helper: https://github.com/danielguillan/bem-constructor */
+
+/* HTML tags were chosen minding semantics and HTLM5 best practices */
+/* This flowchart pretty well encapulates the tag-determining process: http://html5doctor.com/downloads/h5d-sectioning-flowchart.pdf */
+
+/* Here we set the font size to a clean 10px for easy rem calcs */
+/* We do this in percentages in order to support accessibility better (page zoom and increased default font sizes)  */
+
+/* 3rd Party Packages */
+@import "normalize.css";
+
+/* Global Styles */
+@import "base/variables";
+@import "base/mixins";
+
+/* BEM Blocks */
+@import "modules/o";
+@import "modules/hacks";
+@import "modules/u-set-rem";
+@import "modules/c-staged-cta";
+@import "modules/c-content-row";
+@import "modules/c-heading";
+@import "modules/c-text";
+@import "modules/s-hubspot-form";
+@import "modules/c-request-demo-form";
+@import "modules/c-popup";
+@import "modules/c-demo-form";
+@import "modules/c-logo";
+@import "modules/c-bg-video";

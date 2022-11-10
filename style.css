@@ -1,0 +1,18 @@
+/**
+Theme Name: Astra - ROUTE
+Author: Matthew Neff
+Description: A child theme for Astra to be used in the transition to a fully custom theme.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: astra-route
+Template: astra
+*/
+
+/* Styles follow a BEM structure with namespacing practices */
+/* BEM Guide: https://css-tricks.com/bem-101/ */
+/* Namespacing Guide: https://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/ */
+/* Namespacing Helper: https://github.com/danielguillan/bem-constructor */
+
+/* HTML tags were chosen minding semantics and HTLM5 best practices */
+/* This flowchart pretty well encapulates the tag-determining process: http://html5doctor.com/downloads/h5d-sectioning-flowchart.pdf */

@@ -1,0 +1,76 @@
+/*HubSpot Form Styling*/
+.hbspt-form {
+	max-width: 468px;
+}
+
+.hbspt-form form {
+	display: grid;
+	grid-row-gap: 18px;
+}
+
+.hbspt-form form label {
+	display: none;
+}
+
+.hbspt-form form .hs-error-msgs{
+	margin: 0px 0px 10px 15px !important;	
+}
+
+
+.hbspt-form form .hs-error-msgs li {
+	list-style-type: "*";
+	color: red;
+}
+
+.hbspt-form form .hs-error-msgs li label{
+	display: block;
+	color: red;
+}
+
+.hbspt-form form .input input{
+	width: 100%;
+	height: 56px;
+	
+	border-radius: 16px;
+	background-color: #f7f7f7 !important;
+	border: 1px #ddd solid;
+}
+
+.hbspt-form form .input select{
+	width: 100%;
+	height: 56px;
+	
+	border-radius: 16px;
+	background-color: #f7f7f7 !important;
+	border: 1px #ddd solid;
+}
+
+
+.hbspt-form form .hs-submit {
+	height: 70px;
+	width: 131px;
+	justify-self: center !important;
+	
+	display: flex;
+	flex-direction: column;
+	
+	justify-content: flex-end !important;
+}
+
+.hbspt-form form .hs-submit input{
+	width: 100%;
+	height: 40px;
+	
+	border-radius: 24px;
+	background-color: #31C8E0 !important;
+	
+	color: #fff;
+	font-weight: 600;
+	font-size: 17px;
+	
+	padding: 0px !important;
+}
+
+.hbspt-form form .input ::placeholder{
+	color: #DDD !important;	
+}
